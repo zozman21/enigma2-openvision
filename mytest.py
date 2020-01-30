@@ -7,9 +7,6 @@ from time import time
 from Tools.Profile import profile, profile_final
 profile("PYTHON_START")
 
-# Don't remove this line. It may seem to do nothing, but if removed,
-# it will break output redirection for crash logs.
-import Tools.RedirectOutput
 from Tools.Directories import resolveFilename, fileHas
 from boxbranding import getVisionVersion, getVisionRevision, getHaveMultiLib
 print("[mytest] Open Vision version = %s" % getVisionVersion())
